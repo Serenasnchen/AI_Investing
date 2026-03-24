@@ -1,0 +1,63 @@
+# 环境变量
+.env
+*.env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Word 临时文件
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~WRL*.tmp
+
+# 生成文件 / 大体积目录
+outputs/
+data/processed/
+data/raw/graphs/
+
+# Word 文档
+*.docx
+
+# 版权 PDF 文件
+data/industryresearch/*.pdf
+data/raw/papers/*.pdf
+
+# 根目录个人文档 PDF
+/*.pdf
+
+# docs 目录（本地保留，不上传）
+docs/
+
+# 日志
+*.log
+logs/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# 构建产物
+dist/
+build/
+*.egg-info/
